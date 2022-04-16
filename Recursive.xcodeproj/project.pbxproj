@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		707B4C42280B20A10088F45C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 707B4C41280B20A10088F45C /* main.cpp */; };
+		707B4C4A280B452E0088F45C /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 707B4C49280B452E0088F45C /* MergeSort.cpp */; };
+		707B4C4D280B54C50088F45C /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 707B4C4B280B54C50088F45C /* QuickSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		707B4C3E280B20A10088F45C /* Recursive */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Recursive; sourceTree = BUILT_PRODUCTS_DIR; };
 		707B4C41280B20A10088F45C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		707B4C48280B440B0088F45C /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
+		707B4C49280B452E0088F45C /* MergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
+		707B4C4B280B54C50088F45C /* QuickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
+		707B4C4C280B54C50088F45C /* QuickSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QuickSort.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,10 @@
 		707B4C35280B20A10088F45C = {
 			isa = PBXGroup;
 			children = (
+				707B4C4B280B54C50088F45C /* QuickSort.cpp */,
+				707B4C4C280B54C50088F45C /* QuickSort.hpp */,
+				707B4C48280B440B0088F45C /* MergeSort.h */,
+				707B4C49280B452E0088F45C /* MergeSort.cpp */,
 				707B4C40280B20A10088F45C /* Recursive */,
 				707B4C3F280B20A10088F45C /* Products */,
 			);
@@ -119,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				707B4C4A280B452E0088F45C /* MergeSort.cpp in Sources */,
+				707B4C4D280B54C50088F45C /* QuickSort.cpp in Sources */,
 				707B4C42280B20A10088F45C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
